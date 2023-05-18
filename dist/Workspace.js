@@ -92,7 +92,10 @@ export function setPreviewSource(options) {
 export function createWindow() {
     const features = (STE.appearance.standalone || STE.appearance.fullscreen) ? "popup" : "", win = window.open(window.location.href, "_blank", features);
     //const features = (STE.appearance.standalone || STE.appearance.fullscreen) ? "popup" : "", win = window.open(window.location.href, , features);
-    confirm("hola")
+    if (!confirm(`Are you sure you would like to close "${this.#name}"?\nRecent changes have not yet been saved.`))
+                return;
+     
+
     if (win === null)
         throw new Error("Couldn't create a new Smart Text Editor window");
     if (STE.appearance.fullscreen) {
