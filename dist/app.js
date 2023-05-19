@@ -1,7 +1,7 @@
 import "./Card.js";
 import Tools from "./Tools.js";
 import { Editor, setEditorTabsVisibility } from "./Editor.js";
-import { setView, setOrientation, createWindow, openFiles, saveFile, createDisplay, refreshPreview, setScaling, disableScaling } from "./Workspace.js";
+import { setView, setOrientation, createWindow, openFiles, saveFile, createDisplay, refreshPreview, setScaling, disableScaling } from "./Workspace2.js";
 for (const image of document.querySelectorAll("img")) {
     image.draggable = false;
 }
