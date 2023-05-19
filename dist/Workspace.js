@@ -142,6 +142,7 @@ export async function openFiles() {
         });
         if (!handles)
             return;
+        alert("adios")
         handles.forEach(async (handle) => {
             const file = await handle.getFile(), { identifier } = new Editor({ name: file.name, value: await file.text() });
             STE.fileHandles[identifier] = handle;
