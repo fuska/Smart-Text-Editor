@@ -112,6 +112,7 @@ export function createWindow() {
  * If the File System Access API is supported in the user's browser, it will use that. If not, it will fall back to using an `<input type="file">` element.
 */
 export async function openFiles() {
+        alert("enga")
     if (!STE.support.fileSystem) {
         const input = Object.assign(document.createElement("input"), {
             type: "file",
