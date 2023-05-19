@@ -1,4 +1,5 @@
 alert("antes")
+window.moveTo(16, 16);
 import "./Card.js";
 import Tools from "./Tools.js";
 import { Editor, setEditorTabsVisibility } from "./Editor.js";
