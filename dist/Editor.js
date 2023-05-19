@@ -1,5 +1,5 @@
 import { getElementStyle, applyEditingBehavior, setTitle } from "./app.js";
-import { setPreviewSource, refreshPreview } from "./Workspace.js";
+import { setPreviewSource, refreshPreview } from "./Workspace2.js";
 /**
  * Creates a new Editor within the Workspace.
 */
