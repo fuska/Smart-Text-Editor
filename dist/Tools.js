@@ -1,5 +1,5 @@
 import { Editor } from "./Editor.js";
-import { setView } from "./Workspace.js";
+import { setView } from "./Workspace2.js";
 /**
  * A global object with static properties to work with the various tools provided the app.
 */
