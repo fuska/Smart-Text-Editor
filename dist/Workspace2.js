@@ -92,6 +92,7 @@ export function setPreviewSource(options) {
 export function createWindow() {
     const features = (STE.appearance.standalone || STE.appearance.fullscreen) ? "popup" : "", win = window.open(window.location.href, "_blank", features);
     //const features = (STE.appearance.standalone || STE.appearance.fullscreen) ? "popup" : "", win = window.open(window.location.href, , features);
+    alert("hola")
     if (!confirm(`comprobar si se ejecuta en la versión desktop.`))
                 return;
      
