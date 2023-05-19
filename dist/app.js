@@ -472,6 +472,7 @@ if (STE.appearance.parentWindow) {
     }, 50);
 }
 if (STE.support.fileHandling && STE.support.fileSystem) {
+    alert("donde")
     window.launchQueue.setConsumer(async ({ files: handles }) => {
         for (const handle of handles) {
             const file = await handle.getFile();
